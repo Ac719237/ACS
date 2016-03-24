@@ -98,6 +98,7 @@ Für den Verbrauch in Kwh verschicken wir zum Beispiel das Frame
 > 7E A0 14 00 20 50 8D 21 32 B0 4A E6 E6 00 05 01 02 07 08 68 52 7E
 
 und erhalten das Frame  
+> 7E A0 17 21 00 20 50 8D 52 68 4C E6 E7 00 0C 01 00 05 00 00 00 XX B1 EF 7E
 
-
-zurück. Die Stelle XX kennzeichnet hierbei den Verbrauch in Kwh (nach Umwandlung von Hexadezimal in Dezimal).
+zurück. Die Stelle XX kennzeichnet hierbei den Verbrauch in Kwh (nach Umwandlung von Hexadezimal in Dezimal).  
+Die Leistung wird danach in eine MySQL Datenbank abgespeichert.
